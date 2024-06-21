@@ -1,0 +1,132 @@
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.username-page-container, .chat-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.chat-container{
+max-width:60vh;
+min-height:80vh;
+}
+
+.username-page-container{
+max-width: 500px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-control {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.accent, .primary {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.accent:hover, .primary:hover {
+    background-color: #0056b3;
+}
+
+.chat-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.connecting {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.chat-page{
+display:flex;
+width:100%;
+height:100vh;
+justify-content:center;
+align-items:center;
+padding-top:10vh;
+}
+
+#messageArea {
+    list-style: none;
+    padding: 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-height: 300px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+    background-color: #F5F5F5;
+    padding: 10px;
+    min-height:60vh;
+}
+
+#messageArea li {
+    margin-bottom: 10px;
+}
+
+#messageArea .event-message {
+    text-align: center;
+    color: #999;
+    font-size: 14px;
+}
+
+#messageArea .chat-message {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #BBDEFB;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 80%;
+}
+
+#messageArea .chat-message .username {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+}
+
+.input-group .form-control {
+    flex: 1;
+}
+
+.input-group .primary {
+    margin-left: 10px;
+}
+
+.hidden {
+    display: none ;
+}
